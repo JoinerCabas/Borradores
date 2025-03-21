@@ -1,0 +1,17 @@
+Alcool=0
+Gasolina=0
+Diesel=0
+while True:
+    tipo_combustible=int(input())
+    if(tipo_combustible==1):
+       Alcool=Alcool+1
+    elif(tipo_combustible==2):
+       Gasolina=Gasolina+1
+    elif(tipo_combustible==3):
+       Diesel=Diesel+1
+    elif(tipo_combustible==4):
+     break
+print("MUITO OBRIGADO")
+print(f"Alcohol: {Alcool}")
+print(f"Gasoline: {Gasolina}")
+print(f"Diesel: {Diesel}")
